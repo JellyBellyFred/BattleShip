@@ -15,11 +15,22 @@ Hints
 Running The Game
 ================
 
-*_Mac_*
+_*Mac*_
 
-In terminal, type the following:
+In Terminal, type the following:
 ```
-cd /path/to/this/file/
+cd /path/to/this/folder/
+```
+Then,
+```
+python battle.py
+```
+
+_*Windows*_
+
+In Command Prompt, type the following:
+```
+cd C:\path\to\this\folder\
 ```
 Then,
 ```
