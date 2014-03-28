@@ -19,7 +19,7 @@ Running The Game
 
 In Terminal, type the following:
 ```
-cd /path/to/this/folder/
+cd /path/to/this/directory/
 ```
 Then,
 ```
@@ -30,7 +30,7 @@ python battle.py
 
 In Command Prompt, type the following:
 ```
-cd C:\path\to\this\folder\
+cd C:\path\to\this\directory\
 ```
 Then,
 ```
