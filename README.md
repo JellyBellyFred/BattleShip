@@ -1,4 +1,4 @@
-BattleShip >> PYTHON
+The Battle Ship Game
 =
 
 Battle Ship is a game played by both players setting up his/her ship at a certain coordinate. This ship is two 'blocks'
