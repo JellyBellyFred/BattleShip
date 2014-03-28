@@ -12,8 +12,8 @@ HINTS:
 - Always guess around the first block.
 - The AI doesn't have a guessing pattern (though this is planned). Use this to your advantage.
 
- 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
