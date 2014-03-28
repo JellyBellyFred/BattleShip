@@ -15,7 +15,7 @@ Hints
 Running The Game
 ================
 
-_*Mac*_
+*Mac*
 
 In Terminal, type the following:
 ```
@@ -26,7 +26,7 @@ Then,
 python battle.py
 ```
 
-_*Windows*_
+*Windows*
 
 In Command Prompt, type the following:
 ```
