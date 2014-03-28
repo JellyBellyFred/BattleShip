@@ -16,11 +16,12 @@ Running The Game
 ================
 
 *_Mac_*
+
 In terminal, type the following:
-'''
+```
 cd /path/to/this/file/
-'''
+```
 Then,
-'''
+```
 python battle.py
-'''
+```
