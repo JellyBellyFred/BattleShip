@@ -11,3 +11,9 @@ HINTS:
 - Guessing the same coordinate twice will lose you a turn.
 - Always guess around the first block.
 - The AI doesn't have a guessing pattern (though this is planned). Use this to your advantage.
+
+ 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
