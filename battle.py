@@ -8,6 +8,13 @@ import colors
 ##     ## ##     ##    ##       ##    ##       ##             ##    ## ##     ##  ##  ##        
 ########  ##     ##    ##       ##    ######## ########        ######  ##     ## #### ##        
 
+# Start / Clear the window before the game starts #
+x=0
+while x < 50:
+    print
+    print
+    x = x + 1
+# End / Clear the window before the game starts # 
 guess_row = 0
 guess_col = 0
 gotOne = 0
