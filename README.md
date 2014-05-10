@@ -15,11 +15,19 @@ Hints
 Running The Game
 ================
 
-###**Mac**
+###**Before We Start...**
+
+Download Python from:
+```
+http://python.org
+```
+Now, install Python. You're all set! Procede to the following section for your OS.
+
+###**Mac / Linux**
 
 In Terminal, type the following:
 ```
-cd /path/to/this/directory/
+cd /path/to/file/directory/
 ```
 Then,
 ```
@@ -30,7 +38,7 @@ python battle.py
 
 In Command Prompt, type the following:
 ```
-cd C:\path\to\this\directory\
+cd C:\path\to\file\directory\
 ```
 Then,
 ```
