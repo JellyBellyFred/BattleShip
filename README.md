@@ -19,7 +19,7 @@ Running The Game
 
 Download Python from:
 ```
-http://python.org
+http://python.org/
 ```
 Now, install Python. You're all set! Procede to the following section for your OS.
 
