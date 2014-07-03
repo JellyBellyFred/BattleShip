@@ -31,9 +31,9 @@ Then,
 ```
 python battle.py
 ```
-For the best cosmetic result on a Mac, Control-Click the Terminal window and click Show Inspector. There, change the values of "Columns" to 179, and "Rows" to 53, or the largest your screen can handle.
+_For the best cosmetic result on a Mac, Control-Click the Terminal window and click Show Inspector. There, change the values of "Columns" to 179, and "Rows" to 53, or the largest your screen can handle._
 
-For the best cosmetic result on a Linux, make sure the Terminal window is as large as it can be.
+_For the best cosmetic result on a Linux, make sure the Terminal window is as large as it can be._
 
 ###**Windows**
 
@@ -45,4 +45,4 @@ Then,
 ```
 python battle.py
 ```
-For the best cosmetic result on a Windows, make sure the Command Prompt window is as large as it can be.
+_For the best cosmetic result on a Windows, make sure the Command Prompt window is as large as it can be._
