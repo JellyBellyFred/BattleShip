@@ -151,14 +151,16 @@ for turn in range(999):
     print
     print "Turn " + throw + ":"
     if gotOne == 0:
-        while X == 0 | Y == 0:
+        X = 0
+        Y = 0
+        while X == 0 or Y == 0:
             X = 0
             Y = 0
             guess_col = guessCol(0, size - 1)
             guess_row = guessRow(0, size - 1)
-            if (guess_col + guess_row)%2 != 1:
+            if (guess_col + guess_row)%2 == 1:
                 X = 1
-            if board[guess_row][guess_col] != "~":
+            if board[guess_row][guess_col] == "~":
                 Y = 1
     else:
         guessDir = randint(0, 3)
