@@ -1,44 +1,23 @@
 import colors
 
+########     ###    ######## ######## ##       ########        ######  ##     ## #### ########  
+##     ##   ## ##      ##       ##    ##       ##             ##    ## ##     ##  ##  ##     ## 
+##     ##  ##   ##     ##       ##    ##       ##             ##       ##     ##  ##  ##     ## 
+########  ##     ##    ##       ##    ##       ######          ######  #########  ##  ########  
+##     ## #########    ##       ##    ##       ##                   ## ##     ##  ##  ##        
+##     ## ##     ##    ##       ##    ##       ##             ##    ## ##     ##  ##  ##        
+########  ##     ##    ##       ##    ######## ########        ######  ##     ## #### ##        
+
 # Start / Clear the window before the game starts #
 comwin = 0
 humwin = 0
-t = 0
-X = 0
-Y = 0
 def clear ():
     x = 0
-    while x < 75:
+    while x < 50:
         print
-        x = x + 1
-    print '\033[34m' '\033[1m'"########     ###    ######## ######## ##       ########" + '\033[31m'"        ######  ##     ## #### ######## "'\033[0m'
-    print '\033[34m' '\033[1m'"##     ##   ## ##      ##       ##    ##       ##      " + '\033[31m'"       ##    ## ##     ##  ##  ##     ##"'\033[0m'
-    print '\033[34m' '\033[1m'"##     ##  ##   ##     ##       ##    ##       ##      " + '\033[31m'"       ##       ##     ##  ##  ##     ##"'\033[0m'
-    print '\033[34m' '\033[1m'"########  ##     ##    ##       ##    ##       ######  " + '\033[31m'"        ######  #########  ##  ######## "'\033[0m'
-    print '\033[34m' '\033[1m'"##     ## #########    ##       ##    ##       ##      " + '\033[31m'"             ## ##     ##  ##  ##       "'\033[0m'
-    print '\033[34m' '\033[1m'"##     ## ##     ##    ##       ##    ##       ##      " + '\033[31m'"       ##    ## ##     ##  ##  ##       "'\033[0m'
-    print '\033[34m' '\033[1m'"########  ##     ##    ##       ##    ######## ########" + '\033[31m'"        ######  ##     ## #### ##       "'\033[0m'
-    print
-    print
-    print
-    print
-    print
-    print
-    print
-    print
-    print
-    print
-    print
-    print
-    print
-    print
-def clearNoWords (times):
-    x = 0
-    while x < times:
         print
         x = x + 1
 clear ()
-clearNoWords (15)
 # End / Clear the window before the game starts # 
 guess_row = 0
 guess_col = 0
@@ -121,10 +100,6 @@ def guessRow(min, max):
 
 print
 print
-if t == 0:
-    print
-    print
-    print
 print "Your guesses:"
 print_board(boardHum)
 print
@@ -146,20 +121,21 @@ else:
     pship_colHum = ship_colHum + 1
 
 for turn in range(999):
-    t = turn + 1
     throw = str(turn + 1)
     print
     print "Turn " + throw + ":"
+
+    guess_col = guessCol(0, size - 1)
+    guess_row = guessRow(0, size - 1)
+
     if gotOne == 0:
-        while X == 0 | Y == 0:
-            X = 0
-            Y = 0
+        guess_col = guessCol(0, size - 1)
+        guess_row = guessRow(0, size - 1)
+
+        while board[guess_row][guess_col] != "~":
             guess_col = guessCol(0, size - 1)
             guess_row = guessRow(0, size - 1)
-            if (guess_col + guess_row)%2 != 1:
-                X = 1
-            if board[guess_row][guess_col] != "~":
-                Y = 1
+
     else:
         guessDir = randint(0, 3)
         if guessDir == 0:
@@ -223,7 +199,7 @@ for turn in range(999):
 
     if (boardHum[guess_rowHum][guess_colHum] != "~"):
         print
-        print '\033[31m' + "-- You guessed that one already! --" + '\033[0m'
+        print '\033[31m' + "-- You guessed that one already, idiot! --" + '\033[0m'
     elif (guess_rowHum == ship_rowHum and guess_colHum == ship_colHum) or (guess_rowHum == pship_rowHum and guess_colHum == pship_colHum):
         if gotOneHum == 0:
             gotOneHum = 1
