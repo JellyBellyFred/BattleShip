@@ -7,7 +7,7 @@ Battle Ship is a game played by both players setting up his/her ship at a certai
 Hints
 =====
 - Guessing the same block twice will lose you a turn.
-- Always guess around the first guessed block.
+- Always guess around the first found block.
 - ~~The AI doesn't have a guessing pattern (though this is planned). Use this to your advantage.~~ Smart AI has been added!
  
 Running The Game
