@@ -8,12 +8,12 @@ Hints
 =====
 - Guessing the same block twice will lose you a turn.
 - Always guess around the first found block.
-- ~~The AI doesn't have a guessing pattern (though this is planned). Use this to your advantage.~~ Smart AI has been added!
+- Your opponent is smart and has a strategy!
  
 Running The Game
 ================
 
-###**Before We Start...**
+###Before We Start...
 
 Download Python from:
 ```
@@ -21,7 +21,7 @@ http://python.org/
 ```
 Now, install Python. You're all set! Procede to the following section for your OS.
 
-###**Mac / Linux**
+###Mac / Linux
 
 In Terminal, type the following:
 ```
@@ -33,9 +33,9 @@ python battle.py
 ```
 _For the best cosmetic result on a Mac, Control-Click the Terminal window and click Show Inspector. There, change the values of "Columns" to 179, and "Rows" to 53, or the largest your screen can handle._
 
-_For the best cosmetic result on a Linux, make sure the Terminal window is as large as it can be._
+_For the best cosmetic result on Linux, make sure the Terminal window is as large as it can be._
 
-###**Windows**
+###Windows
 
 In Command Prompt, type the following:
 ```
