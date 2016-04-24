@@ -1,6 +1,6 @@
 import colors
 
-# Start / Clear the window before the game starts #
+# Start / Clear the window before the game starts
 comwin = 0
 humwin = 0
 t = 0
@@ -39,7 +39,7 @@ def clearNoWords (times):
         x = x + 1
 clear ()
 clearNoWords (15)
-# End / Clear the window before the game starts # 
+# End / Clear the window before the game starts
 guess_row = 0
 guess_col = 0
 gotOne = 0

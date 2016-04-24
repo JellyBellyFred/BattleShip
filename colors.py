@@ -1,6 +1,5 @@
 from __future__ import print_function
 
-
 # Special END separator
 END = '0e8ed89a-47ba-4cdb-938e-b8af8e084d5c'
 
@@ -32,7 +31,6 @@ BG_MAGENTA = '\033[45m'
 BG_CYAN = '\033[46m'
 BG_WHITE = '\033[47m'
 
-
 class pretty_output():
     '''
     Context manager for pretty terminal prints
@@ -50,7 +48,6 @@ class pretty_output():
     def write(self, msg):
         style = ''.join(self.attributes)
         print('{}{}{}'.format(style, msg.replace(END, ALL_OFF + style), ALL_OFF))
-
 
 if __name__ == '__main__':
 
