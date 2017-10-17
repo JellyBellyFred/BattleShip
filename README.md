@@ -13,7 +13,7 @@ Hints
 Running The Game
 ================
 
-###Before We Start...
+### Before We Start...
 
 Download Python from:
 ```
@@ -21,7 +21,7 @@ http://python.org/
 ```
 Now, install Python. You're all set! Procede to the following section for your OS.
 
-###Mac / Linux
+### Mac / Linux
 
 In Terminal, type the following:
 ```
@@ -35,7 +35,7 @@ _For the best cosmetic result on a Mac, Control-Click the Terminal window and cl
 
 _For the best cosmetic result on Linux, make sure the Terminal window is as large as it can be._
 
-###Windows
+### Windows
 
 In Command Prompt, type the following:
 ```
